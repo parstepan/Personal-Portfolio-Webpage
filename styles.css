@@ -1,0 +1,167 @@
+body {
+  height: max;
+  width: max;
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+  background-color: rgba(168, 199, 130, 1);
+  color: black;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0px 0px 10px 0px;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom:
+}
+.nav-link {
+  padding: 0px 10px 0px 0px;
+}
+#welcome-section {
+  background-color: rgba(223, 211, 149, 1);
+  color: black;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0px 0px 0px;
+  height: 685px;
+  width: max;
+}
+#description {
+  background-color: rgba(154, 232, 127, 1);
+  color: black;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  height: 200px;
+  width: max;
+}
+#line_projects_1 {
+  background-color: grey;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 470px;
+  width: max;
+  margin: 0px 0px 0px 0px;
+}
+#project_1 {
+  background-color: rgba(112, 142, 88, 1);
+  color: black;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max;
+  width: 50%;
+  margin: 0px 10px 0px 0px;
+}
+#project_description {
+  color: black;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-weight: bold;
+  text-align: center;
+}
+.project_img {
+width: 388px;
+height: 282px;
+border: 5px solid black;
+
+}
+#project_2 {
+  background-color: rgba(136, 94, 127, 1);
+  color: black;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max;
+  width: 50%;
+  margin: 0px 0px 0px 10px;
+}
+#line_projects_2 {
+  background-color: grey;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 470px;
+  width: max;
+}
+#project_3 {
+  background-color: rgba(165, 142, 63, 1);
+  color: black;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max;
+  width: 50%;
+  margin: 0px 10px 0px 0px;
+}
+#project_4 {
+  background-color: rgba(89, 155, 103, 1);
+  color: black;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max;
+  width: 50%;
+  margin: 0px 0px 0px 10px;
+}
+#profile_inf {
+  background-color: rgba(82, 106, 153, 1);
+  color: black;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100px;
+  width: max;
+}
+#profile-link {
+  padding-right: 10px;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #87ceeb;
+  }
+}
